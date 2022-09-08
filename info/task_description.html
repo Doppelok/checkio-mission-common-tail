@@ -1,0 +1,27 @@
+<!-- Describe task in general -->
+
+<p>
+    You are given two {% if is_js %}Arrays of numbers{% else %}lists of integers{% endif %}.
+    Elements are unique inside each {% if is_js %}Array{% else %}list{% endif %}.
+    These {% if is_js %}Arrays{% else %}lists{% endif %} may have common element(s)
+    at the end. If so, there will be no different elements after the common.
+    Your function should return an element, from what this common part starts.
+    If there is no such element ({% if is_js %}Arrays{% else %}lists{% endif %}
+    don't end with common element) your function should return {% if is_js %}null{% else %}None{% endif %}. Good luck!
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> Two {% if is_js %}Arrays of numbers{% else %}lists of integers{% endif %}.
+</p>
+
+<p>
+    <strong>Output: </strong> {% if is_js %}Number or null{% else %}Integer or None{% endif %}. 
+</p>
+
+
+<p>
+    <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
