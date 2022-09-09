@@ -9,8 +9,8 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "lists_intersect",
-            "js": "listsIntersect"
+            "python": "common_tail",
+            "js": "commonTail"
         },
         cover_code={
             'python-3': {},
