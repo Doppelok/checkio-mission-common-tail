@@ -3,9 +3,9 @@
 <p>
     You are given two {% if is_js %}Arrays of numbers{% else %}lists of integers{% endif %}.
     Elements are unique inside each {% if is_js %}Array{% else %}list{% endif %}.
-    These {% if is_js %}Arrays{% else %}lists{% endif %} may have common element(s)
-    at the end. If so, there will be no different elements after the common.
-    Your function should return an element, from what this common part starts.
+    These {% if is_js %}Arrays{% else %}lists{% endif %} may have common element(s).
+    Your function should return an element, from what a common part starts and there are no
+    different element(s) after this part - the first element of the last common part (common tail).
     If there is no such element ({% if is_js %}Arrays{% else %}lists{% endif %}
     don't end with common element) your function should return {% if is_js %}null{% else %}None{% endif %}. Good luck!
 </p>
